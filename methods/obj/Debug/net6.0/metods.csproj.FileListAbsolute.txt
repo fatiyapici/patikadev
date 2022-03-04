@@ -1,0 +1,15 @@
+C:\Users\fayap\Desktop\Workspace\patikadev\metods\bin\Debug\net6.0\metods.exe
+C:\Users\fayap\Desktop\Workspace\patikadev\metods\bin\Debug\net6.0\metods.deps.json
+C:\Users\fayap\Desktop\Workspace\patikadev\metods\bin\Debug\net6.0\metods.runtimeconfig.json
+C:\Users\fayap\Desktop\Workspace\patikadev\metods\bin\Debug\net6.0\metods.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\metods\bin\Debug\net6.0\ref\metods.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\metods\bin\Debug\net6.0\metods.pdb
+C:\Users\fayap\Desktop\Workspace\patikadev\metods\obj\Debug\net6.0\metods.csproj.AssemblyReference.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\metods\obj\Debug\net6.0\metods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fayap\Desktop\Workspace\patikadev\metods\obj\Debug\net6.0\metods.AssemblyInfoInputs.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\metods\obj\Debug\net6.0\metods.AssemblyInfo.cs
+C:\Users\fayap\Desktop\Workspace\patikadev\metods\obj\Debug\net6.0\metods.csproj.CoreCompileInputs.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\metods\obj\Debug\net6.0\metods.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\metods\obj\Debug\net6.0\ref\metods.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\metods\obj\Debug\net6.0\metods.pdb
+C:\Users\fayap\Desktop\Workspace\patikadev\metods\obj\Debug\net6.0\metods.genruntimeconfig.cache

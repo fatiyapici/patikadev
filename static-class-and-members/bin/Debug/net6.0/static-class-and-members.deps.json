@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "static-class-and-members/1.0.0": {
+        "runtime": {
+          "static-class-and-members.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "static-class-and-members/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

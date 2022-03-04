@@ -1,0 +1,15 @@
+C:\Users\fayap\Desktop\Workspace\patikadev\encapsulation\bin\Debug\net6.0\encapsulation.exe
+C:\Users\fayap\Desktop\Workspace\patikadev\encapsulation\bin\Debug\net6.0\encapsulation.deps.json
+C:\Users\fayap\Desktop\Workspace\patikadev\encapsulation\bin\Debug\net6.0\encapsulation.runtimeconfig.json
+C:\Users\fayap\Desktop\Workspace\patikadev\encapsulation\bin\Debug\net6.0\encapsulation.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\encapsulation\bin\Debug\net6.0\ref\encapsulation.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\encapsulation\bin\Debug\net6.0\encapsulation.pdb
+C:\Users\fayap\Desktop\Workspace\patikadev\encapsulation\obj\Debug\net6.0\encapsulation.csproj.AssemblyReference.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\encapsulation\obj\Debug\net6.0\encapsulation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fayap\Desktop\Workspace\patikadev\encapsulation\obj\Debug\net6.0\encapsulation.AssemblyInfoInputs.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\encapsulation\obj\Debug\net6.0\encapsulation.AssemblyInfo.cs
+C:\Users\fayap\Desktop\Workspace\patikadev\encapsulation\obj\Debug\net6.0\encapsulation.csproj.CoreCompileInputs.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\encapsulation\obj\Debug\net6.0\encapsulation.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\encapsulation\obj\Debug\net6.0\ref\encapsulation.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\encapsulation\obj\Debug\net6.0\encapsulation.pdb
+C:\Users\fayap\Desktop\Workspace\patikadev\encapsulation\obj\Debug\net6.0\encapsulation.genruntimeconfig.cache

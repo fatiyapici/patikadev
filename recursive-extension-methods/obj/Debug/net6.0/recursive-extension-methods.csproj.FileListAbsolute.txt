@@ -1,0 +1,15 @@
+C:\Users\fayap\Desktop\Workspace\patikadev\recursive-extension-methods\bin\Debug\net6.0\recursive-extension-methods.exe
+C:\Users\fayap\Desktop\Workspace\patikadev\recursive-extension-methods\bin\Debug\net6.0\recursive-extension-methods.deps.json
+C:\Users\fayap\Desktop\Workspace\patikadev\recursive-extension-methods\bin\Debug\net6.0\recursive-extension-methods.runtimeconfig.json
+C:\Users\fayap\Desktop\Workspace\patikadev\recursive-extension-methods\bin\Debug\net6.0\recursive-extension-methods.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\recursive-extension-methods\bin\Debug\net6.0\ref\recursive-extension-methods.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\recursive-extension-methods\bin\Debug\net6.0\recursive-extension-methods.pdb
+C:\Users\fayap\Desktop\Workspace\patikadev\recursive-extension-methods\obj\Debug\net6.0\recursive-extension-methods.csproj.AssemblyReference.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\recursive-extension-methods\obj\Debug\net6.0\recursive-extension-methods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fayap\Desktop\Workspace\patikadev\recursive-extension-methods\obj\Debug\net6.0\recursive-extension-methods.AssemblyInfoInputs.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\recursive-extension-methods\obj\Debug\net6.0\recursive-extension-methods.AssemblyInfo.cs
+C:\Users\fayap\Desktop\Workspace\patikadev\recursive-extension-methods\obj\Debug\net6.0\recursive-extension-methods.csproj.CoreCompileInputs.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\recursive-extension-methods\obj\Debug\net6.0\recursive-extension-methods.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\recursive-extension-methods\obj\Debug\net6.0\ref\recursive-extension-methods.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\recursive-extension-methods\obj\Debug\net6.0\recursive-extension-methods.pdb
+C:\Users\fayap\Desktop\Workspace\patikadev\recursive-extension-methods\obj\Debug\net6.0\recursive-extension-methods.genruntimeconfig.cache

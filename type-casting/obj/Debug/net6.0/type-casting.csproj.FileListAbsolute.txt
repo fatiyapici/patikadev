@@ -1,0 +1,15 @@
+C:\Users\fayap\Desktop\Workspace\patikadev\type-casting\bin\Debug\net6.0\type-casting.exe
+C:\Users\fayap\Desktop\Workspace\patikadev\type-casting\bin\Debug\net6.0\type-casting.deps.json
+C:\Users\fayap\Desktop\Workspace\patikadev\type-casting\bin\Debug\net6.0\type-casting.runtimeconfig.json
+C:\Users\fayap\Desktop\Workspace\patikadev\type-casting\bin\Debug\net6.0\type-casting.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\type-casting\bin\Debug\net6.0\ref\type-casting.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\type-casting\bin\Debug\net6.0\type-casting.pdb
+C:\Users\fayap\Desktop\Workspace\patikadev\type-casting\obj\Debug\net6.0\type-casting.csproj.AssemblyReference.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\type-casting\obj\Debug\net6.0\type-casting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fayap\Desktop\Workspace\patikadev\type-casting\obj\Debug\net6.0\type-casting.AssemblyInfoInputs.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\type-casting\obj\Debug\net6.0\type-casting.AssemblyInfo.cs
+C:\Users\fayap\Desktop\Workspace\patikadev\type-casting\obj\Debug\net6.0\type-casting.csproj.CoreCompileInputs.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\type-casting\obj\Debug\net6.0\type-casting.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\type-casting\obj\Debug\net6.0\ref\type-casting.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\type-casting\obj\Debug\net6.0\type-casting.pdb
+C:\Users\fayap\Desktop\Workspace\patikadev\type-casting\obj\Debug\net6.0\type-casting.genruntimeconfig.cache

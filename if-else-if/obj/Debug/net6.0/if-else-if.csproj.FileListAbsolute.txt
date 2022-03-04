@@ -1,0 +1,15 @@
+C:\Users\fayap\Desktop\Workspace\patikadev\if-else-if\bin\Debug\net6.0\if-else-if.exe
+C:\Users\fayap\Desktop\Workspace\patikadev\if-else-if\bin\Debug\net6.0\if-else-if.deps.json
+C:\Users\fayap\Desktop\Workspace\patikadev\if-else-if\bin\Debug\net6.0\if-else-if.runtimeconfig.json
+C:\Users\fayap\Desktop\Workspace\patikadev\if-else-if\bin\Debug\net6.0\if-else-if.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\if-else-if\bin\Debug\net6.0\ref\if-else-if.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\if-else-if\bin\Debug\net6.0\if-else-if.pdb
+C:\Users\fayap\Desktop\Workspace\patikadev\if-else-if\obj\Debug\net6.0\if-else-if.csproj.AssemblyReference.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\if-else-if\obj\Debug\net6.0\if-else-if.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fayap\Desktop\Workspace\patikadev\if-else-if\obj\Debug\net6.0\if-else-if.AssemblyInfoInputs.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\if-else-if\obj\Debug\net6.0\if-else-if.AssemblyInfo.cs
+C:\Users\fayap\Desktop\Workspace\patikadev\if-else-if\obj\Debug\net6.0\if-else-if.csproj.CoreCompileInputs.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\if-else-if\obj\Debug\net6.0\if-else-if.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\if-else-if\obj\Debug\net6.0\ref\if-else-if.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\if-else-if\obj\Debug\net6.0\if-else-if.pdb
+C:\Users\fayap\Desktop\Workspace\patikadev\if-else-if\obj\Debug\net6.0\if-else-if.genruntimeconfig.cache

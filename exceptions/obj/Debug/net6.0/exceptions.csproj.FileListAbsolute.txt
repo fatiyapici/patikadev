@@ -1,0 +1,15 @@
+C:\Users\fayap\Desktop\Workspace\patikadev\exceptions\bin\Debug\net6.0\exceptions.exe
+C:\Users\fayap\Desktop\Workspace\patikadev\exceptions\bin\Debug\net6.0\exceptions.deps.json
+C:\Users\fayap\Desktop\Workspace\patikadev\exceptions\bin\Debug\net6.0\exceptions.runtimeconfig.json
+C:\Users\fayap\Desktop\Workspace\patikadev\exceptions\bin\Debug\net6.0\exceptions.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\exceptions\bin\Debug\net6.0\ref\exceptions.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\exceptions\bin\Debug\net6.0\exceptions.pdb
+C:\Users\fayap\Desktop\Workspace\patikadev\exceptions\obj\Debug\net6.0\exceptions.csproj.AssemblyReference.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\exceptions\obj\Debug\net6.0\exceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fayap\Desktop\Workspace\patikadev\exceptions\obj\Debug\net6.0\exceptions.AssemblyInfoInputs.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\exceptions\obj\Debug\net6.0\exceptions.AssemblyInfo.cs
+C:\Users\fayap\Desktop\Workspace\patikadev\exceptions\obj\Debug\net6.0\exceptions.csproj.CoreCompileInputs.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\exceptions\obj\Debug\net6.0\exceptions.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\exceptions\obj\Debug\net6.0\ref\exceptions.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\exceptions\obj\Debug\net6.0\exceptions.pdb
+C:\Users\fayap\Desktop\Workspace\patikadev\exceptions\obj\Debug\net6.0\exceptions.genruntimeconfig.cache

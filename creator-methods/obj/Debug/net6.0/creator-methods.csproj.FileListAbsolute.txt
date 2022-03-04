@@ -1,0 +1,15 @@
+C:\Users\fayap\Desktop\Workspace\patikadev\creator-methods\bin\Debug\net6.0\creator-methods.exe
+C:\Users\fayap\Desktop\Workspace\patikadev\creator-methods\bin\Debug\net6.0\creator-methods.deps.json
+C:\Users\fayap\Desktop\Workspace\patikadev\creator-methods\bin\Debug\net6.0\creator-methods.runtimeconfig.json
+C:\Users\fayap\Desktop\Workspace\patikadev\creator-methods\bin\Debug\net6.0\creator-methods.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\creator-methods\bin\Debug\net6.0\ref\creator-methods.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\creator-methods\bin\Debug\net6.0\creator-methods.pdb
+C:\Users\fayap\Desktop\Workspace\patikadev\creator-methods\obj\Debug\net6.0\creator-methods.csproj.AssemblyReference.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\creator-methods\obj\Debug\net6.0\creator-methods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fayap\Desktop\Workspace\patikadev\creator-methods\obj\Debug\net6.0\creator-methods.AssemblyInfoInputs.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\creator-methods\obj\Debug\net6.0\creator-methods.AssemblyInfo.cs
+C:\Users\fayap\Desktop\Workspace\patikadev\creator-methods\obj\Debug\net6.0\creator-methods.csproj.CoreCompileInputs.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\creator-methods\obj\Debug\net6.0\creator-methods.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\creator-methods\obj\Debug\net6.0\ref\creator-methods.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\creator-methods\obj\Debug\net6.0\creator-methods.pdb
+C:\Users\fayap\Desktop\Workspace\patikadev\creator-methods\obj\Debug\net6.0\creator-methods.genruntimeconfig.cache

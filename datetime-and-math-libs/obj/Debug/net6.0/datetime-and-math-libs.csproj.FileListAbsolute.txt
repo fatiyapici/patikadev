@@ -1,0 +1,15 @@
+C:\Users\fayap\Desktop\Workspace\patikadev\datetime-and-math-libs\bin\Debug\net6.0\datetime-and-math-libs.exe
+C:\Users\fayap\Desktop\Workspace\patikadev\datetime-and-math-libs\bin\Debug\net6.0\datetime-and-math-libs.deps.json
+C:\Users\fayap\Desktop\Workspace\patikadev\datetime-and-math-libs\bin\Debug\net6.0\datetime-and-math-libs.runtimeconfig.json
+C:\Users\fayap\Desktop\Workspace\patikadev\datetime-and-math-libs\bin\Debug\net6.0\datetime-and-math-libs.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\datetime-and-math-libs\bin\Debug\net6.0\ref\datetime-and-math-libs.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\datetime-and-math-libs\bin\Debug\net6.0\datetime-and-math-libs.pdb
+C:\Users\fayap\Desktop\Workspace\patikadev\datetime-and-math-libs\obj\Debug\net6.0\datetime-and-math-libs.csproj.AssemblyReference.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\datetime-and-math-libs\obj\Debug\net6.0\datetime-and-math-libs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fayap\Desktop\Workspace\patikadev\datetime-and-math-libs\obj\Debug\net6.0\datetime-and-math-libs.AssemblyInfoInputs.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\datetime-and-math-libs\obj\Debug\net6.0\datetime-and-math-libs.AssemblyInfo.cs
+C:\Users\fayap\Desktop\Workspace\patikadev\datetime-and-math-libs\obj\Debug\net6.0\datetime-and-math-libs.csproj.CoreCompileInputs.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\datetime-and-math-libs\obj\Debug\net6.0\datetime-and-math-libs.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\datetime-and-math-libs\obj\Debug\net6.0\ref\datetime-and-math-libs.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\datetime-and-math-libs\obj\Debug\net6.0\datetime-and-math-libs.pdb
+C:\Users\fayap\Desktop\Workspace\patikadev\datetime-and-math-libs\obj\Debug\net6.0\datetime-and-math-libs.genruntimeconfig.cache

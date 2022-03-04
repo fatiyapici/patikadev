@@ -1,0 +1,15 @@
+C:\Users\fayap\Desktop\Workspace\patikadev\static-class-and-members\bin\Debug\net6.0\static-class-and-members.exe
+C:\Users\fayap\Desktop\Workspace\patikadev\static-class-and-members\bin\Debug\net6.0\static-class-and-members.deps.json
+C:\Users\fayap\Desktop\Workspace\patikadev\static-class-and-members\bin\Debug\net6.0\static-class-and-members.runtimeconfig.json
+C:\Users\fayap\Desktop\Workspace\patikadev\static-class-and-members\bin\Debug\net6.0\static-class-and-members.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\static-class-and-members\bin\Debug\net6.0\ref\static-class-and-members.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\static-class-and-members\bin\Debug\net6.0\static-class-and-members.pdb
+C:\Users\fayap\Desktop\Workspace\patikadev\static-class-and-members\obj\Debug\net6.0\static-class-and-members.csproj.AssemblyReference.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\static-class-and-members\obj\Debug\net6.0\static-class-and-members.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fayap\Desktop\Workspace\patikadev\static-class-and-members\obj\Debug\net6.0\static-class-and-members.AssemblyInfoInputs.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\static-class-and-members\obj\Debug\net6.0\static-class-and-members.AssemblyInfo.cs
+C:\Users\fayap\Desktop\Workspace\patikadev\static-class-and-members\obj\Debug\net6.0\static-class-and-members.csproj.CoreCompileInputs.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\static-class-and-members\obj\Debug\net6.0\static-class-and-members.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\static-class-and-members\obj\Debug\net6.0\ref\static-class-and-members.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\static-class-and-members\obj\Debug\net6.0\static-class-and-members.pdb
+C:\Users\fayap\Desktop\Workspace\patikadev\static-class-and-members\obj\Debug\net6.0\static-class-and-members.genruntimeconfig.cache

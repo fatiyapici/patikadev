@@ -1,0 +1,15 @@
+C:\Users\fayap\Desktop\Workspace\patikadev\degisken\obj\Debug\net6.0\degisken.csproj.AssemblyReference.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\degisken\obj\Debug\net6.0\degisken.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fayap\Desktop\Workspace\patikadev\degisken\obj\Debug\net6.0\degisken.AssemblyInfoInputs.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\degisken\obj\Debug\net6.0\degisken.AssemblyInfo.cs
+C:\Users\fayap\Desktop\Workspace\patikadev\degisken\obj\Debug\net6.0\degisken.csproj.CoreCompileInputs.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\degisken\bin\Debug\net6.0\degisken.exe
+C:\Users\fayap\Desktop\Workspace\patikadev\degisken\bin\Debug\net6.0\degisken.deps.json
+C:\Users\fayap\Desktop\Workspace\patikadev\degisken\bin\Debug\net6.0\degisken.runtimeconfig.json
+C:\Users\fayap\Desktop\Workspace\patikadev\degisken\bin\Debug\net6.0\degisken.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\degisken\bin\Debug\net6.0\ref\degisken.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\degisken\bin\Debug\net6.0\degisken.pdb
+C:\Users\fayap\Desktop\Workspace\patikadev\degisken\obj\Debug\net6.0\degisken.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\degisken\obj\Debug\net6.0\ref\degisken.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\degisken\obj\Debug\net6.0\degisken.pdb
+C:\Users\fayap\Desktop\Workspace\patikadev\degisken\obj\Debug\net6.0\degisken.genruntimeconfig.cache

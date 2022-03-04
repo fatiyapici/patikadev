@@ -1,0 +1,15 @@
+C:\Users\fayap\Desktop\Workspace\patikadev\class-concept\bin\Debug\net6.0\class-concept.exe
+C:\Users\fayap\Desktop\Workspace\patikadev\class-concept\bin\Debug\net6.0\class-concept.deps.json
+C:\Users\fayap\Desktop\Workspace\patikadev\class-concept\bin\Debug\net6.0\class-concept.runtimeconfig.json
+C:\Users\fayap\Desktop\Workspace\patikadev\class-concept\bin\Debug\net6.0\class-concept.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\class-concept\bin\Debug\net6.0\ref\class-concept.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\class-concept\bin\Debug\net6.0\class-concept.pdb
+C:\Users\fayap\Desktop\Workspace\patikadev\class-concept\obj\Debug\net6.0\class-concept.csproj.AssemblyReference.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\class-concept\obj\Debug\net6.0\class-concept.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fayap\Desktop\Workspace\patikadev\class-concept\obj\Debug\net6.0\class-concept.AssemblyInfoInputs.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\class-concept\obj\Debug\net6.0\class-concept.AssemblyInfo.cs
+C:\Users\fayap\Desktop\Workspace\patikadev\class-concept\obj\Debug\net6.0\class-concept.csproj.CoreCompileInputs.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\class-concept\obj\Debug\net6.0\class-concept.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\class-concept\obj\Debug\net6.0\ref\class-concept.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\class-concept\obj\Debug\net6.0\class-concept.pdb
+C:\Users\fayap\Desktop\Workspace\patikadev\class-concept\obj\Debug\net6.0\class-concept.genruntimeconfig.cache
