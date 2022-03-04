@@ -1,0 +1,15 @@
+C:\Users\fayap\Desktop\Workspace\patikadev\struct-concept\bin\Debug\net6.0\struct-concept.exe
+C:\Users\fayap\Desktop\Workspace\patikadev\struct-concept\bin\Debug\net6.0\struct-concept.deps.json
+C:\Users\fayap\Desktop\Workspace\patikadev\struct-concept\bin\Debug\net6.0\struct-concept.runtimeconfig.json
+C:\Users\fayap\Desktop\Workspace\patikadev\struct-concept\bin\Debug\net6.0\struct-concept.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\struct-concept\bin\Debug\net6.0\ref\struct-concept.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\struct-concept\bin\Debug\net6.0\struct-concept.pdb
+C:\Users\fayap\Desktop\Workspace\patikadev\struct-concept\obj\Debug\net6.0\struct-concept.csproj.AssemblyReference.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\struct-concept\obj\Debug\net6.0\struct-concept.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fayap\Desktop\Workspace\patikadev\struct-concept\obj\Debug\net6.0\struct-concept.AssemblyInfoInputs.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\struct-concept\obj\Debug\net6.0\struct-concept.AssemblyInfo.cs
+C:\Users\fayap\Desktop\Workspace\patikadev\struct-concept\obj\Debug\net6.0\struct-concept.csproj.CoreCompileInputs.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\struct-concept\obj\Debug\net6.0\struct-concept.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\struct-concept\obj\Debug\net6.0\ref\struct-concept.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\struct-concept\obj\Debug\net6.0\struct-concept.pdb
+C:\Users\fayap\Desktop\Workspace\patikadev\struct-concept\obj\Debug\net6.0\struct-concept.genruntimeconfig.cache
