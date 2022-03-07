@@ -1,0 +1,15 @@
+C:\Users\fayap\Desktop\Workspace\patikadev\cs-enum\bin\Debug\net6.0\cs-enum.exe
+C:\Users\fayap\Desktop\Workspace\patikadev\cs-enum\bin\Debug\net6.0\cs-enum.deps.json
+C:\Users\fayap\Desktop\Workspace\patikadev\cs-enum\bin\Debug\net6.0\cs-enum.runtimeconfig.json
+C:\Users\fayap\Desktop\Workspace\patikadev\cs-enum\bin\Debug\net6.0\cs-enum.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\cs-enum\bin\Debug\net6.0\ref\cs-enum.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\cs-enum\bin\Debug\net6.0\cs-enum.pdb
+C:\Users\fayap\Desktop\Workspace\patikadev\cs-enum\obj\Debug\net6.0\cs-enum.csproj.AssemblyReference.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\cs-enum\obj\Debug\net6.0\cs-enum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fayap\Desktop\Workspace\patikadev\cs-enum\obj\Debug\net6.0\cs-enum.AssemblyInfoInputs.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\cs-enum\obj\Debug\net6.0\cs-enum.AssemblyInfo.cs
+C:\Users\fayap\Desktop\Workspace\patikadev\cs-enum\obj\Debug\net6.0\cs-enum.csproj.CoreCompileInputs.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\cs-enum\obj\Debug\net6.0\cs-enum.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\cs-enum\obj\Debug\net6.0\ref\cs-enum.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\cs-enum\obj\Debug\net6.0\cs-enum.pdb
+C:\Users\fayap\Desktop\Workspace\patikadev\cs-enum\obj\Debug\net6.0\cs-enum.genruntimeconfig.cache
