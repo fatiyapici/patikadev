@@ -1,0 +1,15 @@
+C:\Users\fayap\Desktop\Workspace\patikadev\interfaces\bin\Debug\net6.0\interfaces.exe
+C:\Users\fayap\Desktop\Workspace\patikadev\interfaces\bin\Debug\net6.0\interfaces.deps.json
+C:\Users\fayap\Desktop\Workspace\patikadev\interfaces\bin\Debug\net6.0\interfaces.runtimeconfig.json
+C:\Users\fayap\Desktop\Workspace\patikadev\interfaces\bin\Debug\net6.0\interfaces.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\interfaces\bin\Debug\net6.0\ref\interfaces.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\interfaces\bin\Debug\net6.0\interfaces.pdb
+C:\Users\fayap\Desktop\Workspace\patikadev\interfaces\obj\Debug\net6.0\interfaces.csproj.AssemblyReference.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\interfaces\obj\Debug\net6.0\interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fayap\Desktop\Workspace\patikadev\interfaces\obj\Debug\net6.0\interfaces.AssemblyInfoInputs.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\interfaces\obj\Debug\net6.0\interfaces.AssemblyInfo.cs
+C:\Users\fayap\Desktop\Workspace\patikadev\interfaces\obj\Debug\net6.0\interfaces.csproj.CoreCompileInputs.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\interfaces\obj\Debug\net6.0\interfaces.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\interfaces\obj\Debug\net6.0\ref\interfaces.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\interfaces\obj\Debug\net6.0\interfaces.pdb
+C:\Users\fayap\Desktop\Workspace\patikadev\interfaces\obj\Debug\net6.0\interfaces.genruntimeconfig.cache
