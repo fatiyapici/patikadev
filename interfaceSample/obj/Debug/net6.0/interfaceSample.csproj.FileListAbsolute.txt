@@ -1,0 +1,15 @@
+C:\Users\fayap\Desktop\Workspace\patikadev\interfaceSample\bin\Debug\net6.0\interfaceSample.exe
+C:\Users\fayap\Desktop\Workspace\patikadev\interfaceSample\bin\Debug\net6.0\interfaceSample.deps.json
+C:\Users\fayap\Desktop\Workspace\patikadev\interfaceSample\bin\Debug\net6.0\interfaceSample.runtimeconfig.json
+C:\Users\fayap\Desktop\Workspace\patikadev\interfaceSample\bin\Debug\net6.0\interfaceSample.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\interfaceSample\bin\Debug\net6.0\ref\interfaceSample.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\interfaceSample\bin\Debug\net6.0\interfaceSample.pdb
+C:\Users\fayap\Desktop\Workspace\patikadev\interfaceSample\obj\Debug\net6.0\interfaceSample.csproj.AssemblyReference.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\interfaceSample\obj\Debug\net6.0\interfaceSample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fayap\Desktop\Workspace\patikadev\interfaceSample\obj\Debug\net6.0\interfaceSample.AssemblyInfoInputs.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\interfaceSample\obj\Debug\net6.0\interfaceSample.AssemblyInfo.cs
+C:\Users\fayap\Desktop\Workspace\patikadev\interfaceSample\obj\Debug\net6.0\interfaceSample.csproj.CoreCompileInputs.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\interfaceSample\obj\Debug\net6.0\interfaceSample.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\interfaceSample\obj\Debug\net6.0\ref\interfaceSample.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\interfaceSample\obj\Debug\net6.0\interfaceSample.pdb
+C:\Users\fayap\Desktop\Workspace\patikadev\interfaceSample\obj\Debug\net6.0\interfaceSample.genruntimeconfig.cache
