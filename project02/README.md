@@ -1,14 +1,3 @@
-SERVICES
-DOCUMENTS
-ToDoApp.md
-PREVIEW AS 
-EXPORT AS 
-SAVE TO 
-IMPORT FROM 
-DOCUMENT NAME
-ToDoApp.md
-MARKDOWNPREVIEWToggle Mode
-  
 <h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="ToDoApp_0"></a>ToDoApp</h1>
 <h2 class="code-line" data-line-start=2 data-line-end=3 ><a id="_Add_task_and_plan_it__2"></a><em>Add task and plan it</em></h2>
 <p class="has-line-data" data-line-start="4" data-line-end="6"><a href="https://github.com/fatiyapici"><img src="https://i.hizliresim.com/d7my7d9.png" alt="N|Git"></a><br>
