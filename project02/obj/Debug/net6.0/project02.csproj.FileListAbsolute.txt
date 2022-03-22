@@ -1,0 +1,15 @@
+C:\Users\fayap\Desktop\Workspace\patikadev\project02\bin\Debug\net6.0\project02.exe
+C:\Users\fayap\Desktop\Workspace\patikadev\project02\bin\Debug\net6.0\project02.deps.json
+C:\Users\fayap\Desktop\Workspace\patikadev\project02\bin\Debug\net6.0\project02.runtimeconfig.json
+C:\Users\fayap\Desktop\Workspace\patikadev\project02\bin\Debug\net6.0\project02.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\project02\bin\Debug\net6.0\ref\project02.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\project02\bin\Debug\net6.0\project02.pdb
+C:\Users\fayap\Desktop\Workspace\patikadev\project02\obj\Debug\net6.0\project02.csproj.AssemblyReference.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\project02\obj\Debug\net6.0\project02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fayap\Desktop\Workspace\patikadev\project02\obj\Debug\net6.0\project02.AssemblyInfoInputs.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\project02\obj\Debug\net6.0\project02.AssemblyInfo.cs
+C:\Users\fayap\Desktop\Workspace\patikadev\project02\obj\Debug\net6.0\project02.csproj.CoreCompileInputs.cache
+C:\Users\fayap\Desktop\Workspace\patikadev\project02\obj\Debug\net6.0\project02.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\project02\obj\Debug\net6.0\ref\project02.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\project02\obj\Debug\net6.0\project02.pdb
+C:\Users\fayap\Desktop\Workspace\patikadev\project02\obj\Debug\net6.0\project02.genruntimeconfig.cache
