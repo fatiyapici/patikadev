@@ -78,10 +78,12 @@ public class Board
         input = input.ToLower();
         foreach (var card in Card.Cards)
         {
-            card.Title.ToLower();
-            if (input.Equals(card.Title))
+            card.Title = card.Title.ToLower();
+            if (card.Title.Equals(input))
             {
                 Card.Cards.Remove(card);
+                Console.WriteLine("Başarıyla silindi.");
+                Program.Homepage();
             }
             else
             {

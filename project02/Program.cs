@@ -13,22 +13,23 @@ class Program
         Board Board = new Board();
         Console.WriteLine("Lütfen yapmak istediğiniz işlemi seçiniz :)\n" +
                           "*******************************************\n" +
-                          "(1) Board Listelemek\n" +
-                          "(2) Board'a Kart Eklemek\n" +
-                          "(3) Board'dan Kart Silmek\n" +
+                          "(1) Board'a Kart Eklemek\n" +
+                          "(2) Board'dan Kart Silmek\n" +
+                          "(3) Board Listelemek\n" +
                           "(4) Kart Taşımak");
         switch (ValidInput(1, 4))
         {
             case 1:
-                Board.ListBoard();
+                Board.AddCardToBoard();
                 Homepage();
+
                 break;
             case 2:
-                Board.AddCardToBoard();
+                Board.DeleteCardToBoard();
                 Homepage();
                 break;
             case 3:
-                Board.DeleteCardToBoard();
+                Board.ListBoard();
                 Homepage();
                 break;
             case 4:
