@@ -7,7 +7,6 @@ class Program
         Homepage();
     }
 
-
     public static void Homepage()
     {
         Board Board = new Board();
@@ -17,68 +16,36 @@ class Program
                           "(2) Board'dan Kart Silmek\n" +
                           "(3) Board Listelemek\n" +
                           "(4) Kart Taşımak");
-        switch (ValidInput(1, 4))
+
+        //Homepage'e vb. yönlendirmeleri hem metodların
+        //içinde yapmışsın hem de burada yapmışsın.
+        //Bu kullanıcı farklı bir giriş yapsa bile istemeden fazladan metodları tekrar
+        //çalıştırıp kullanıcının önüne bilgi getirecek
+        //kullandığın board metodları başka sayfalara da yönlendirmediği için
+        //buradaki her case'de Homepage() metodunu çağıracaksan
+        
+        //ana metodlara yönlendirmeler vs. gerçek uygulamalarda farklı çalışır
+        //sende sadece 2 sayfa var şu anda aslında, Homepage ve Board
+        //bu yüzden çok anlaşılmıyor ama bir sayfaya yönlendirme yapacaksan şu an yazdığım gibi
+        //metod içerisinden yapmak daha sağlıklıdır
+        //çünkü ikiden fazla sayfa olan bir proje olsaydı birbirlerinin arasında hangi sayfaya
+        //gideceğine mevcut çalışan metodun karar vermesi gerekecekti.
+
+    
+        switch (InputHelper.ValidIntInput(1, 4))
         {
             case 1:
                 Board.AddCardToBoard();
-                Homepage();
-
                 break;
             case 2:
                 Board.DeleteCardToBoard();
-                Homepage();
                 break;
             case 3:
                 Board.ListBoard();
-                Homepage();
                 break;
             case 4:
                 Board.MoveCardOnBoard();
-                Homepage();
                 break;
         }
-    }
-
-    public static int ValidInput(int lowerLimit, int higherLimit)
-    {
-        string input;
-        int output;
-        bool isValidInput;
-        do
-        {
-            input = Console.ReadLine();
-            isValidInput = int.TryParse(input, out output);
-            if (!isValidInput)
-            {
-                Console.WriteLine("Geçersiz giriş yaptınız. Lütfen " + lowerLimit + " ile " + higherLimit +
-                                  " sayıları arasında seçim yapınız.");
-            }
-        } while (!isValidInput && !(output >= lowerLimit && output <= higherLimit));
-
-        return output;
-    }
-
-    public static int ValidInput()
-    {
-        string input;
-        int output;
-        bool isValidInput;
-        do
-        {
-            input = Console.ReadLine();
-            isValidInput = int.TryParse(input, out output);
-        } while (!isValidInput);
-
-        return output;
-    }
-
-    public static string UppercaseFirst(string s)
-    {
-        if (string.IsNullOrEmpty(s))
-        {
-            return string.Empty;
-        }
-
-        return char.ToUpper(s[0]) + s.Substring(1);
     }
 }

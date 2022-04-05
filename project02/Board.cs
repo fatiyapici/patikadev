@@ -2,71 +2,66 @@
 
 public class Board
 {
-    private Line line;
-
-    public Line Line
-    {
-        get => line;
-        set => line = value;
-    }
-
     public void ListBoard()
     {
         foreach (var line in Enum.GetValues(typeof(Line)))
         {
             Console.WriteLine(Enum.GetName(typeof(Line), line) + " Line\n" +
                               "************************");
-            int boardHasNotCardCounter = 0;
+
+            //Foreach içinde listeyi sayıp boş mu diye kontrol etmek
+            //biraz saçma geldi
+            if (Card.Cards.Count <= 0)
+            {
+                Console.WriteLine("~BOS~");
+                Program.Homepage();
+                return;
+            }
+
+            //Filter Cards list
+            //(Line) for casting
+            var filteredCards = Card.Cards.Where(x => x.LineProp == (Line)line);
+            if (filteredCards == null)
+            {
+                Program.Homepage();
+                return;
+            }
 
             foreach (var card in Card.Cards)
             {
-                if (card.LineProp.Equals(line))
-                {
-                    Console.WriteLine("Başlık      : " + card.Title + "\n" +
-                                      "İçerik      : " + card.Content + "\n" +
-                                      "Atanan Kişi : " + card.PersonId + "\n" +
-                                      "Büyüklük    : " + card.Size + "\n" +
-                                      "-");
-                    boardHasNotCardCounter++;
-                }
+                card.WriteCardInfo();
             }
 
-            if (boardHasNotCardCounter == 0)
-                Console.WriteLine("~BOS~");
+            Program.Homepage();
         }
     }
 
     public void AddCardToBoard()
     {
+        //Readibility is important
         Card card = new Card();
         Console.WriteLine("Başlık Giriniz                                  : ");
-        card.Title = Console.ReadLine();
+        card.Title = InputHelper.ValidStringInput();
+
         Console.WriteLine("İçerik Giriniz                                  :");
-        card.Content = Console.ReadLine();
+        card.Content = InputHelper.ValidStringInput();
+
         Console.WriteLine("Büyüklük Seçiniz -> XS(1),S(2),M(3),L(4),XL(5)  :");
-        int sizeInput = Program.ValidInput(1, 5);
-        card.Size = (Size) sizeInput;
+        int sizeInput = InputHelper.ValidIntInput(1, 5);
+        card.Size = (Size)sizeInput;
+
         Console.WriteLine("Kişi Seçiniz                                    : ");
         bool idValidation = false;
         int idToBeAssigned;
         do
         {
-            idToBeAssigned = Program.ValidInput();
-
-            foreach (var person in Person.Persons)
-            {
-                if (person.Id.Equals(idToBeAssigned))
-                    idValidation = false;
-                else
-                {
-                    idValidation = true;
-                    break;
-                }
-            }
+            idToBeAssigned = InputHelper.ValidIntInput();
+            idValidation = !Person.Persons.Any(x => x.Id == idToBeAssigned);
         } while (!idValidation);
 
         card.PersonId = idToBeAssigned;
-        Card.Cards.Add(card);
+        card = Card.AddCard(card);
+
         Program.Homepage();
     }
 
@@ -74,73 +69,83 @@ public class Board
     {
         Console.WriteLine("Öncelikle silmek istediğiniz kartı seçmeniz gerekiyor.\n" +
                           "Lütfen kart başlığını yazınız:  ");
-        string input = Console.ReadLine();
-        input = input.ToLower();
-        foreach (var card in Card.Cards)
+
+        //Burada input'un dolu geldiğini doğrulayana kadar kullanıcıdan alman gerekirdi
+        //Ben sadece kontrolü yaparak bıraktım
+        string input = InputHelper.ValidStringInput();
+        input = input.Trim().ToLower();
+
+        var matchedCard = Card.Cards.FirstOrDefault(x => x.Title.ToLower().Equals(input));
+        if (matchedCard != null)
         {
-            card.Title = card.Title.ToLower();
-            if (card.Title.Equals(input))
-            {
-                Card.Cards.Remove(card);
-                Console.WriteLine("Başarıyla silindi.");
-                Program.Homepage();
-            }
-            else
-            {
-                Console.WriteLine("Aradığınız krtiterlere uygun kart board'da bulunamadı. Lütfen bir seçim yapınız.\n" +
+            Card.Cards.Remove(matchedCard);
+            Console.WriteLine("Başarıyla silindi.");
+            Program.Homepage();
+        }
+        else
+        {
+            Console.WriteLine("Aradığınız krtiterlere uygun kart board'da bulunamadı. Lütfen bir seçim yapınız.\n" +
                                   "* Silmeyi sonlandırmak için : (1)\n" +
                                   "* Yeniden denemek için : (2)");
-                int selection = Program.ValidInput(1, 2);
-                if (selection == 1)
-                    Program.Homepage();
-                else
-                    DeleteCardToBoard();
-            }
+            int selection = InputHelper.ValidIntInput(1, 2);
+            if (selection == 1)
+                Program.Homepage();
+            else
+                DeleteCardToBoard();
         }
+
+        //Bu kısımda çok fazla sorun vardı
+        //Döngüde sadece ilk elemana göre işlem yapmak mantıken çok yanlış
+        //Bütün elemanlar arasında eşleşen var mı diye bakıp ona göre işlem yapman gerekirdi
+        //Ayrıca yazdığın kod ile kullanıcı sürekli farklı metodları çağırarak kendi metodunu erişebiliyor
+        //Yani recursive metod olarak çalıştırılabilir
     }
 
     public void MoveCardOnBoard()
     {
         Console.WriteLine("Öncelikle silmek istediğiniz kartı seçmeniz gerekiyor.\n" +
                           "Lütfen kart başlığını yazınız:  ");
-        string input = Console.ReadLine();
-        input = input.ToLower();
-        foreach (var card in Card.Cards)
-        {
-            card.Title = card.Title.ToLower();
-            if (card.Title.Equals(input))
-            {
-                card.Title = Program.UppercaseFirst(card.Title);
-                Console.WriteLine("Başlık      : " + card.Title + "\n" +
-                                  "İçerik      : " + card.Content + "\n" +
-                                  "Atanan Kişi : " + card.PersonId + "\n" +
-                                  "Büyüklük    : " + card.Size);
-                Console.WriteLine("Lütfen taşımak istediğiniz Line'ı seçiniz: \n" +
-                                  "(1) TODO \n" +
-                                  "(2) IN PROGRESS \n" +
-                                  "(3) DONE ");
 
-                int selection = Program.ValidInput(1, 3);
-                if (selection == 1)
-                    card.LineProp = Line.TODO;
-                else if (selection == 2)
-                    card.LineProp = Line.INPROGRESS;
-                else
-                    card.LineProp = Line.DONE;
-            }
-            else
-            {
-                Console.WriteLine("Aradığınız krtiterlere uygun kart board'da bulunamadı. Lütfen bir seçim yapınız.\n" +
+        string input = InputHelper.ValidStringInput();
+        input = input.Trim().ToLower();
+
+        var matchedCard = Card.Cards.FirstOrDefault(x => x.Title.ToLower().Equals(input));
+        if (matchedCard != null)
+        {
+            // kullanıcının girdiği title için kendi listendeki kart'ın başlığını değiştirerek
+            // kontrol etmek çok yanlış olmuş
+            // card gibi objelere getter setter koymak bunu önlemek içinken
+            // sen kasıtlı olarak title'ını değiştirerek kontrol ediyorsun
+            // card'ın title'ını bir değişkene kopyalayıp orada işlem yapmak
+            // çok daha mantıklı değil mi?
+
+            matchedCard.WriteCardInfo();
+
+            Console.WriteLine("Lütfen taşımak istediğiniz Line'ı seçiniz: \n" +
+                              "(1) TODO \n" +
+                              "(2) IN PROGRESS \n" +
+                              "(3) DONE ");
+
+            int selection = InputHelper.ValidIntInput(1, 3);
+            //Enumu değerinden direkt cast edebilirsin
+            //Enum'lar mantıken sadece okunabilir sayılardır
+            matchedCard.LineProp = (Line)(selection - 1);
+            Program.Homepage();
+        }
+        else
+        {
+            Console.WriteLine("Aradığınız krtiterlere uygun kart board'da bulunamadı. Lütfen bir seçim yapınız.\n" +
                                   "* İşlemi sonlandırmak için : (1)\n" +
                                   "* Yeniden denemek için : (2)");
 
-                int selection = Program.ValidInput(1, 2);
-                if (selection == 1)
-                    Program.Homepage();
-                else
-                    MoveCardOnBoard();
-            }
+            int selection = InputHelper.ValidIntInput(1, 2);
+            if (selection == 1)
+                Program.Homepage();
+            else
+                MoveCardOnBoard();
         }
-        Program.Homepage();
+
+        //Burada kurduğun döngüde de yukarıdaki metoddaki döngündeki mantık hatasının aynısı vardı
+        //Çok temel bi mantık hatası, burada yaptığın hatayı bence iyice anlaman lazım
     }
 }
