@@ -1,0 +1,52 @@
+~~~ GIT BASIC COMMANDS ~~~
+
+git add . : Dosyayi git'e ekleme
+
+git commit : Dosya commitleme
+
+~~~ COMMIT ~~~
+
+git commit -m "COMMIT MESAJ ALANI" : Dosyayi mesaj olarak commitleme
+
+git commit --amend : Degisiklik yapildiginda son commit ile guncelleme // Son commit islemini yeniden yapmak icin kullanilir.
+
+~~~ DELETIONS ~~~
+
+git revert #commitID : Son commiti siler
+
+git reset --hard #commitID: Istenilen commite geri doner
+
+git diff #commitID..#commitID #DosyaAdi : Iki commit arasinda dosya uzerinde yapilan degisiklikleri gosterir.
+
+~~~ BRANCH ~~~
+
+git branch : Mevcut branchleri gosterir.
+
+git branch #branchAdi : #branchAdi'nda yeni bir branch olusturur.
+
+git checkout #branchAdi : Branch #branchAdi ile degistirilir.
+
+git checkout -b #branchAdi : #branchAdi'nda branch olusturulur ve olusturulan branche gecis yapilir.
+
+git branch -D #branchAdi : #branchAdi'ndaki branchi siler.
+
+// Branchler arasi degisikliklerde referans branch haricindeki dosyalar branchlerde gozukmez.
+
+~~~ STASH ~~~
+
+git stash : Mevcut olan branchte son committen itibaren yapmis olunan tum degisiklikler stashde saklanir.
+
+git stash pop : Son kaydedilen stashi geri getirir. // Ust stash ogesini uygular ve yigindan kaldirir.
+
+git stash apply #stashId : Spesifik olarak stash edilen degisiklikleri geri getirir. // Popun aynisini yapar fakat yiginda birakir.
+
+~~~ MERGE ~~~
+
+git merge #branchAdi : branchAdi ile mevcut olan branchin ortak commitini bulup
+iki branchin son iki commitine giderek ikisi arasindaki farklari bulunan branche uygular.
+
+git merge --squash #branchAdi : squash komutu kullanildiginda yapilan birlestirmeyi commitleme firsati verir.
+
+git rebase #branchAdi : Mevcut branchi #branchAdi ile olan degisiklikleri commit uzerinde yapilmis gibi gosterir, commit tarihcesine hicbir sey eklemez.
+
+git merge --abort : Conflict oldugunda merge islemini iptal eder.
