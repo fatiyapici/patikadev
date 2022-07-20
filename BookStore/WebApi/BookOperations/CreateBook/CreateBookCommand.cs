@@ -1,10 +1,8 @@
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using WebApi.Common;
 using WebApi.DbOperations;
 
-namespace WebApi.BookOperations.CreateBookCommand
+namespace WebApi.BookOperations.CreateBook
 {
     public class CreateBookCommand
     {

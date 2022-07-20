@@ -1,7 +1,5 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using Microsoft.AspNetCore.Mvc;
 using WebApi.Common;
 using WebApi.DbOperations;
 
@@ -10,10 +8,6 @@ namespace WebApi.BookOperations.GetBooks
     public class GetBooksQuery
     {
         private readonly BookStoreDbContext _dbContext;
-
-        public GetBooksQuery()
-        {
-        }
 
         public GetBooksQuery(BookStoreDbContext dbContext)
         {
