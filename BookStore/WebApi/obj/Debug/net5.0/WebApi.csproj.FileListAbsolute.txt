@@ -31,3 +31,9 @@ C:\Users\fayap\Desktop\Workspace\patikadev\BookStore\WebApi\bin\Debug\net5.0\Mic
 C:\Users\fayap\Desktop\Workspace\patikadev\BookStore\WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\Users\fayap\Desktop\Workspace\patikadev\BookStore\WebApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\fayap\Desktop\Workspace\patikadev\BookStore\WebApi\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\BookStore\webapi\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\BookStore\webapi\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\BookStore\webapi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\BookStore\webapi\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\BookStore\webapi\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\fayap\Desktop\Workspace\patikadev\BookStore\webapi\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll

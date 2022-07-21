@@ -2,7 +2,9 @@ using System;
 using System.Buffers;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -13,6 +15,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using WebApi.Common;
 using WebApi.DbOperations;
 
 namespace WebApi
@@ -37,6 +40,11 @@ namespace WebApi
             });
 
             services.AddDbContext<BookStoreDbContext>(options => options.UseInMemoryDatabase(databaseName: "BookStoreDB"));
+            services.AddAutoMapper(Assembly.GetExecutingAssembly());
+            // var config = new MapperConfiguration(cfg =>
+            // {
+            //     cfg.AddMaps(typeof(MappingProfile));
+            // });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -59,6 +67,7 @@ namespace WebApi
             {
                 endpoints.MapControllers();
             });
+
         }
     }
 }
