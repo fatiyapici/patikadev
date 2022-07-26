@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "MKK6fvHPTFbsLmZtsyzpL7uHBn2y7G+bDuwvLO8CzKYBKnAEFS2mw3T2Zd6uJunqBRWUC1YBBR/CupKvu6VQ+w==",
+  "dgSpecHash": "Oiv+qv5OY6DbLxA0+Zkj5FuAfdeQATJuNOSp8IrmKh+KMFhLgg5zzdocOmwidN47V9z4C6SBrtHF5gyvMdhREA==",
   "success": true,
   "projectFilePath": "C:\\Users\\fayap\\Desktop\\Workspace\\patikadev\\BookStore\\webapi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fayap\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\fayap\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\fayap\\.nuget\\packages\\fluentvalidation\\11.1.0\\fluentvalidation.11.1.0.nupkg.sha512",
     "C:\\Users\\fayap\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\fayap\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.6\\microsoft.entityframeworkcore.5.0.6.nupkg.sha512",
     "C:\\Users\\fayap\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.6\\microsoft.entityframeworkcore.abstractions.5.0.6.nupkg.sha512",
