@@ -1,4 +1,6 @@
 using AutoMapper;
+using WebApi.Applications.AuthorOperations.GetAuthorDetail;
+using WebApi.Applications.AuthorOperations.GetAuthors;
 using WebApi.Applications.BookOperations.Queries.GetBookDetail;
 using WebApi.Applications.BookOperations.Queries.GetBooks;
 using WebApi.Applications.GenreOperations.Queries.GetGenreDetail;
@@ -15,8 +17,12 @@ namespace WebApi.Common
             CreateMap<CreateBookModel, Book>();
             CreateMap<Book, BooksViewModel>().ForMember(dest => dest.Genre, opt => opt.MapFrom(src => src.Genre.Name));
             CreateMap<Book, BookDetailViewModel>().ForMember(dest => dest.Genre, opt => opt.MapFrom(src => src.Genre.Name));
+
             CreateMap<Genre, GenresViewModel>();
             CreateMap<Genre, GenreDetailViewModel>();
+
+            CreateMap<Author, AuthorsViewModel>();
+            CreateMap<Author, AuthorDetailViewModel>();
         }
     }
 }

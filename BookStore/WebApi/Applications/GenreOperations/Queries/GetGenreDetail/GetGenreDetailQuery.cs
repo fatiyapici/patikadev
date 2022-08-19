@@ -1,9 +1,7 @@
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using AutoMapper;
 using WebApi.DbOperations;
-using WebApi.Entities;
 
 namespace WebApi.Applications.GenreOperations.Queries.GetGenreDetail
 {
@@ -22,7 +20,7 @@ namespace WebApi.Applications.GenreOperations.Queries.GetGenreDetail
             var genre = _context.Genres.SingleOrDefault(x => x.IsActive && x.Id == GenreId);
             if (genre is null)
             {
-                throw new InvalidOperationException("The book category is not found.");
+                throw new InvalidOperationException("Kitap kategorisi bulunamadi.");
             }
             return _mapper.Map<GenreDetailViewModel>(genre);
         }

@@ -23,6 +23,7 @@ namespace WebApi.Controllers
             _mapper = mapper;
         }
 
+
         [HttpGet]
         public ActionResult GetGenres()
         {
@@ -30,6 +31,7 @@ namespace WebApi.Controllers
             var obj = query.Handle();
             return Ok(obj);
         }
+
 
         [HttpGet("id")]
         public ActionResult GetGenreDetail(int id)
@@ -41,6 +43,7 @@ namespace WebApi.Controllers
             var obj = query.Handle();
             return Ok(obj);
         }
+
 
         [HttpPost]
         public IActionResult AddGenre([FromBody] CreateGenreModel newGenre)
@@ -55,6 +58,7 @@ namespace WebApi.Controllers
             return Ok();
         }
 
+
         [HttpPut("id")]
         public IActionResult UpdateGenre(int id, [FromBody] UpdateGenreModel updateGenre)
         {
@@ -68,9 +72,10 @@ namespace WebApi.Controllers
             command.Handle();
             return Ok();
         }
+        
 
         [HttpDelete("id")]
-        public IActionResult DeleteGenre(int id, DeleteGenreCommand deleteGenre)
+        public IActionResult DeleteGenre(int id)
         {
             DeleteGenreCommand command = new DeleteGenreCommand(_context);
             command.GenreId = id;
