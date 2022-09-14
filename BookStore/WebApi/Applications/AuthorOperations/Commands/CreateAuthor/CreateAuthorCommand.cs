@@ -8,8 +8,8 @@ namespace WebApi.Applications.AuthorOperations.CreateAuthor
     public class CreateAuthorCommand
     {
         public CreateAuthorModel Model { get; set; }
-        private readonly BookStoreDbContext _context;
-        public CreateAuthorCommand(BookStoreDbContext context)
+        private readonly IBookStoreDbContext _context;
+        public CreateAuthorCommand(IBookStoreDbContext context)
         {
             _context = context;
         }

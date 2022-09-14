@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ob6j7p/ShavEMb/Hst/hxzWxXaYWJSMztedDHOUy3clibwU0ESiFYCrTig3d7e0TOgS+8NAxtuGP2lb49zNKFQ==",
+  "dgSpecHash": "UWjRXYQmmsqqgRsWHucz4KG/kucLmS4S6wpWBfFug0JzX38FSzCfCxaEXtEawczJdy2ChRRpDAz8q2RTOWs3SA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fayap\\Desktop\\Workspace\\patikadev\\BookStore\\webapi\\WebApi.csproj",
+  "projectFilePath": "c:\\Users\\fayap\\Desktop\\Workspace\\patikadev\\BookStore\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fayap\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\fayap\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
