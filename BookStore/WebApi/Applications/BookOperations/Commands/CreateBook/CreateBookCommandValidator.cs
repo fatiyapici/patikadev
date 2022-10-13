@@ -1,4 +1,3 @@
-using System;
 using FluentValidation;
 
 namespace WebApi.Applications.BookOperations.Commands.CreateBook

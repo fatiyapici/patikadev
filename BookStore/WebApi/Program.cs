@@ -1,6 +1,3 @@
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 using WebApi.DbOperations;
 
 namespace WebApi
@@ -16,9 +13,7 @@ namespace WebApi
                 var services = scope.ServiceProvider;
                 DataGenerator.Initialize(services);
             }
-
             host.Run();
-
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>

@@ -1,5 +1,3 @@
-using System;
-
 namespace WebApi.Services
 {
     public class DbLogger : ILoggerService
