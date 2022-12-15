@@ -1,5 +1,6 @@
 using AutoMapper;
 using FluentValidation;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using WebApi.Applications.GenreOperations.Commands.CreateGenre;
 using WebApi.Applications.GenreOperations.Commands.DeleteGenre;
@@ -10,6 +11,7 @@ using WebApi.DbOperations;
 
 namespace WebApi.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("[controller]s")]
     public class GenreController : ControllerBase
@@ -33,7 +35,7 @@ namespace WebApi.Controllers
         }
 
 
-        [HttpGet("id")]
+        [HttpGet("{id}")]
         public ActionResult GetGenreDetail(int id)
         {
             GetGenreDetailQuery query = new GetGenreDetailQuery(_context, _mapper);
@@ -59,7 +61,7 @@ namespace WebApi.Controllers
         }
 
 
-        [HttpPut("id")]
+        [HttpPut("{id}")]
         public IActionResult UpdateGenre(int id, [FromBody] UpdateGenreModel updateGenre)
         {
             UpdateGenreCommand command = new UpdateGenreCommand(_context);
@@ -72,9 +74,9 @@ namespace WebApi.Controllers
             command.Handle();
             return Ok();
         }
-        
 
-        [HttpDelete("id")]
+
+        [HttpDelete("{id}")]
         public IActionResult DeleteGenre(int id)
         {
             DeleteGenreCommand command = new DeleteGenreCommand(_context);

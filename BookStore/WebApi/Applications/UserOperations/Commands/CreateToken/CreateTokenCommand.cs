@@ -1,9 +1,8 @@
 using AutoMapper;
-using Microsoft.IdentityModel.Tokens;
 using WebApi.DbOperations;
 using WebApi.TokenOperations.Models;
 
-namespace WebApi.Applications.UserOperations.Commands
+namespace WebApi.Applications.UserOperations.Commands.CreateToken
 {
     public class CreateTokenCommand
     {

@@ -85,6 +85,17 @@ namespace WebApi.DbOperations
 
                     });
 
+                context.Users.AddRange(
+                    new User
+                    {
+                        Name = "Fatih",
+                        Surname = "Yapici",
+                        Email = "fati@gmail.com",
+                        Password = "123456",
+                        RefreshToken = "",
+                        RefreshTokenExpireDate = DateTime.Now.AddHours(2)
+                    });
+
                 context.SaveChanges();
             }
         }

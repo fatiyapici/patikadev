@@ -23,12 +23,12 @@ namespace Tests.WebApi.UnitTests.Applications.AuthorOperations.Commands.CreateAu
         [InlineData("William", "Shakespeare", 1564, 04, 26)]
         [InlineData("Jane", "Austen", 1775, 12, 16)]
         [InlineData("Charles", "Dickens", 1812, 02, 07)]
-        [InlineData("Leo", "Tolstoy", 1828, 09, 09)]
-        [InlineData("Ernest", "Hemingway", 1899, 07, 21)]
-        [InlineData("Franz", "Kafka", 1883, 07, 03)]
+        [InlineData("Leo", "Tolstoy", 2028, 09, 09)]
+        [InlineData("Ernest", "He", 1899, 07, 21)]
+        [InlineData("", "Kafka", 1883, 07, 03)]
 
         [Theory]
-        public void WhenInvalidInputAreGiven_Validator_ShouldBeReturnErrors(string name, string surname, int year, int month, int day)
+        public void WhenInvalidInputAreGiven_Validator_ShouldBeReturnError(string name, string surname, int year, int month, int day)
         {
             CreateAuthorCommand command = new CreateAuthorCommand(null);
             command.Model = new CreateAuthorModel()
@@ -75,7 +75,7 @@ namespace Tests.WebApi.UnitTests.Applications.AuthorOperations.Commands.CreateAu
             CreateAuthorCommandValdiator validator = new CreateAuthorCommandValdiator();
             var result = validator.Validate(command);
 
-            result.Errors.Count.Should().BeGreaterThan(0);
+            result.Errors.Count.Should().Be(0);
         }
         
         [Fact]

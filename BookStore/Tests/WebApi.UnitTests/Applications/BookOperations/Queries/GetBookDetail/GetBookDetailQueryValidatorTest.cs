@@ -28,6 +28,7 @@ namespace Tests.WebApi.UnitTests.Applications.BookOperations.Queries.GetBookDeta
 
             GetBookDetailQueryValidator validator = new GetBookDetailQueryValidator();
             var result = validator.Validate(query);
+            
             result.Errors.Count.Should().BeGreaterThan(0);
         }
     }

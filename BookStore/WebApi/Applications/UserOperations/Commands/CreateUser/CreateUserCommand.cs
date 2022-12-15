@@ -17,9 +17,9 @@ namespace WebApi.Applications.UserOperations.Commands
         }
         public void Handle()
         {
-            var user = _dbContext.Users.SingleOrDefault(x => x.Email == Model.Email);
+            var user = _dbContext.Users.SingleOrDefault(x => string.Equals(x.Email, Model.Email));
             if (user is not null)
-                throw new InvalidOperationException("Kullanici zaten mevcut.");
+                throw new InvalidOperationException("Kullanici adi zaten mevcut.");
             user = _mapper.Map<User>(Model);
             user.RefreshToken = "";
             _dbContext.Users.Add(user);

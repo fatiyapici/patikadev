@@ -1,7 +1,11 @@
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using WebApi.Applications.UserOperations.Commands;
+using WebApi.Applications.UserOperations.Commands.CreateToken;
+using WebApi.Applications.UserOperations.Commands.RefreshToken;
 using WebApi.DbOperations;
+using WebApi.TokenOperations.Models;
+using static WebApi.Applications.UserOperations.Commands.CreateToken.CreateTokenCommand;
 using static WebApi.Applications.UserOperations.Commands.CreateUserCommand;
 
 namespace WebApi.Controllers
@@ -19,7 +23,8 @@ namespace WebApi.Controllers
             _configuration = configuration;
             _mapper = mapper;
         }
-        [HttpPost]
+
+        [HttpPost("newUser")]
         public IActionResult Create([FromBody] CreateUserModel newUser)
         {
             CreateUserCommand command = new CreateUserCommand(_context, _mapper);
@@ -27,13 +32,22 @@ namespace WebApi.Controllers
             command.Handle();
             return Ok();
         }
-        [HttpPost]
-        public ActionResult<Token> CreateToken([FromBody] login)
+
+        [HttpPost("connect/token")]
+        public ActionResult<Token> CreateToken([FromBody] CreateTokenModel login)
         {
-            CreateTokenCommand command = new CreateTokenCommand(_context,_mapper);
+            CreateTokenCommand command = new CreateTokenCommand(_context, _mapper, _configuration);
             command.Model = login;
             var token = command.Handle();
             return token;
+        }
+        [HttpGet("refreshToken")]
+        public ActionResult<Token> RefreshToken([FromQuery] string token)
+        {
+            RefreshTokenCommand command = new RefreshTokenCommand(_context, _configuration);
+            command.RefreshToken = token;
+            var resultToken = command.Handle();
+            return resultToken;
         }
     }
 }

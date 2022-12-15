@@ -9,9 +9,11 @@ using WebApi.Applications.BookOperations.Commands.UpdateBook;
 using WebApi.DbOperations;
 using static WebApi.Applications.BookOperations.Commands.CreateBook.CreateBookCommand;
 using static WebApi.Applications.BookOperations.Commands.UpdateBook.UpdateBookCommand;
+using Microsoft.AspNetCore.Authorization;
 
 namespace WebApi.AddControllers
 {
+    [Authorize]
     [ApiController]
     [Route("[controller]s")]
     public class BookController : ControllerBase
