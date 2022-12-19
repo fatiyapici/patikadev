@@ -30,6 +30,7 @@ namespace Tests.WebApi.UnitTests.Applications.GenreOperations.Queries.GetGenreDe
                 Invoking(() => query.Handle()).Should().Throw<InvalidOperationException>()
                     .And.Message.Should().Be("Kitap kategorisi bulunamadi.");
         }
+        
         [Fact]
         public void WhenBookIsFound_Book_ShouldReturn()
         {

@@ -14,11 +14,12 @@ namespace Tests.WebApi.UnitTests.Applications.UserOperations.Commands.CreateUser
     {
         private readonly BookStoreDbContext _context;
         private readonly IMapper _mapper;
-        public CreateUserCommandTest(CommonTestFixture textFixture)
+        public CreateUserCommandTest(CommonTestFixture testFixture)
         {
-            _context = textFixture.Context;
-            _mapper = textFixture.Mapper;
+            _context = testFixture.Context;
+            _mapper = testFixture.Mapper;
         }
+        
         [Fact]
         public void WhenUsernameIsExist_InvalidOperationException_ShouldReturn()
         {

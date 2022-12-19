@@ -43,7 +43,6 @@ namespace Tests.WebApi.UnitTests.Applications.BookOperations.Commands.UpdateBook
             var result = validator.Validate(command);
 
             result.Errors.Count.Should().BeGreaterThan(0);
-
         }
         [Fact]
         public void WhenValidInputsAreGiven_Book_ShouldBeUpdated()

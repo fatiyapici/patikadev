@@ -1,5 +1,3 @@
-using System;
-using System.Linq;
 using AutoMapper;
 using FluentAssertions;
 using Tests.WebApi.UnitTests.TestSetup;

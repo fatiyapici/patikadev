@@ -39,6 +39,7 @@ namespace Tests.WebApi.UnitTests.Applications.GenreOperations.Commands.UpdateGen
 
             result.Errors.Count.Should().BeGreaterThan(0);
         }
+        
         [Fact]
         public void WhenValidInputsAreGiven_Genre_ShouldBeUpdated()
         {

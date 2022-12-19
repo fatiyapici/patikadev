@@ -2,11 +2,12 @@ using System;
 using AutoMapper;
 using FluentAssertions;
 using Tests.WebApi.UnitTests.TestSetup;
+using WebApi.Applications.UserOperations.Commands.DeleteUser;
 using WebApi.DbOperations;
 using WebApi.Entities;
 using Xunit;
 
-namespace WebApi.Applications.UserOperations.Commands.DeleteUser
+namespace Tests.WebApi.UnitTests.Applications.UserOperations.Commands.DeleteUser
 {
     public class DeleteUserCommandTest : IClassFixture<CommonTestFixture>
     {
@@ -17,6 +18,7 @@ namespace WebApi.Applications.UserOperations.Commands.DeleteUser
             _context = textFixture.Context;
             _mapper = textFixture.Mapper;
         }
+
         [Fact]
         public void WhenDeletedUserIsNotExist_InvalidOperationException_ShouldReturn()
         {
@@ -29,6 +31,7 @@ namespace WebApi.Applications.UserOperations.Commands.DeleteUser
                 RefreshToken = "",
                 RefreshTokenExpireDate = DateTime.Now.AddHours(2)
             };
+
             _context.Users.Add(user);
             _context.SaveChanges();
 

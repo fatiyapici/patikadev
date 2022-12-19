@@ -25,6 +25,7 @@ namespace Tests.WebApi.UnitTests.Applications.GenreOperations.Commands.UpdateGen
             Invoking(() => command.Handle()).Should().Throw<InvalidOperationException>()
             .And.Message.Should().Be("Guncellenecek kitap turu bulunamadi.");
         }
+
         [Fact]
         public void WhenToBeUpdatedBookGenreIsAlreadyExist_InvalidOperationException_ShouldReturn()
         {
